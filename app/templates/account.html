@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Akun{% endblock %}
+{% block content %}
+<section class="card">
+  <h2>Akun saya</h2>
+  <p>{{ g.user.full_name }} · <span class="muted">{{ g.user.username }} ({{ g.user.role }})</span></p>
+  <h3>Ganti password</h3>
+  <form id="pwform" autocomplete="off">
+    <label>Password saat ini <input name="current" type="password" autocomplete="current-password" required></label>
+    <label>Password baru (min. 8 karakter) <input name="new" type="password" minlength="8" autocomplete="new-password" required></label>
+    <label>Ulangi password baru <input name="again" type="password" minlength="8" autocomplete="new-password" required></label>
+    <button class="primary" type="submit">Simpan password</button>
+  </form>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/account.js') }}"></script>{% endblock %}

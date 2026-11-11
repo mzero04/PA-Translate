@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Kamus{% endblock %}
+{% block content %}
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Cari kata…" aria-label="Cari kata">
+  <span id="dcount" class="muted"></span>
+  <span class="spacer"></span>
+  <a class="btn" href="{{ url_for('api.dictionary_export') }}">Unduh Excel</a>
+  {% if g.user.role == 'admin' %}
+  <button id="btn-import">Impor Excel…</button>
+  <input id="file" type="file" accept=".xlsx" hidden>
+  {% endif %}
+</div>
+<table class="grid" id="dict">
+  <thead><tr><th class="num">#</th><th>Text To Remove</th><th>Text To Replace</th><th class="act"></th></tr></thead>
+  <tbody>
+    <tr class="newrow">
+      <td class="num"><input id="n-pos" type="number" min="1" placeholder="akhir" aria-label="Posisi"></td>
+      <td><input id="n-rm" maxlength="200" placeholder="Kata asli (Inggris)"></td>
+      <td><input id="n-rp" maxlength="200" placeholder="Pengganti (Indonesia)"></td>
+      <td class="act"><button id="n-add" class="primary">Tambah</button></td>
+    </tr>
+  </tbody>
+  <tbody id="rows"></tbody>
+</table>
+<p class="hint">Urutan penting: aturan dijalankan dari atas ke bawah, hasil aturan sebelumnya menjadi masukan aturan berikutnya. Tombol ▲▼ aktif bila kolom pencarian kosong.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/dictionary.js') }}"></script>{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Masuk{% endblock %}
+{% block content %}
+<section class="login">
+  <h1>Translate Form</h1>
+  <p class="muted">Masuk untuk menerjemahkan teks instruksi kerja.</p>
+  {% with msgs = get_flashed_messages(with_categories=true) %}
+    {% for cat, m in msgs %}<div class="alert {{ cat }}">{{ m }}</div>{% endfor %}
+  {% endwith %}
+  <form method="post" autocomplete="on">
+    <input type="hidden" name="csrf_token" value="{{ session.csrf }}">
+    <input type="hidden" name="next" value="{{ next }}">
+    <label>Username
+      <input name="username" value="{{ username }}" autocomplete="username" required autofocus>
+    </label>
+    <label>Password
+      <input name="password" type="password" autocomplete="current-password" required>
+    </label>
+    <button class="primary" type="submit">Masuk</button>
+  </form>
+</section>
+{% endblock %}

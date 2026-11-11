@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Terjemah{% endblock %}
+{% block content %}
+<div class="toolbar">
+  <button id="btn-sample">Muat contoh</button>
+  <button id="btn-clear">Kosongkan</button>
+  <span class="spacer"></span>
+  <span id="count" class="muted"></span>
+  <button id="btn-copy">Salin hasil</button>
+  <button id="btn-xlsx">Unduh Excel</button>
+  <button id="btn-save" class="primary">Simpan ke Riwayat</button>
+</div>
+<div class="pair">
+  <div class="pane">
+    <div class="th">TEXT COPAS</div>
+    <textarea id="src" wrap="off" spellcheck="false" placeholder="Tempel teks (satu instruksi per baris), misalnya dari kolom Excel…"></textarea>
+  </div>
+  <div class="pane">
+    <div class="th">Revised Text</div>
+    <textarea id="out" wrap="off" spellcheck="false" readonly></textarea>
+  </div>
+</div>
+<p class="hint">Aturan dari menu <a href="{{ url_for('views.dictionary') }}">Kamus</a> dijalankan berurutan dari atas ke bawah, cocok sebagian kata, dan peka huruf besar/kecil — sama seperti rumus di Excel.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/translate.js') }}"></script>{% endblock %}

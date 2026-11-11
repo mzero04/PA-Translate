@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Riwayat{% endblock %}
+{% block content %}
+<h2>Riwayat terjemahan</h2>
+<table class="grid">
+  <thead><tr><th>Tanggal</th><th>Judul</th><th class="num">Baris</th><th class="act"></th></tr></thead>
+  <tbody id="hrows"></tbody>
+</table>
+<p id="hempty" class="muted" hidden>Belum ada riwayat. Gunakan “Simpan ke Riwayat” di halaman Terjemah.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/history.js') }}"></script>{% endblock %}

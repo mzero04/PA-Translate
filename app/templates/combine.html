@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Gabung Kata{% endblock %}
+{% block content %}
+<div class="toolbar">
+  <label class="inline">Isi semua kata pertama
+    <input id="fill" placeholder="mis. Seamsealing">
+  </label>
+  <button id="btn-fill">Terapkan</button>
+  <span class="spacer"></span>
+  <button id="btn-add">+ Baris</button>
+  <button id="btn-clear">Kosongkan</button>
+  <button id="btn-copy" class="primary">Salin hasil</button>
+</div>
+<table class="grid combine">
+  <thead><tr><th class="num">#</th><th class="cyan">First Word</th><th class="cyan">Second Word</th><th>Hasil</th></tr></thead>
+  <tbody id="crows"></tbody>
+</table>
+<p class="hint">Hasil = kata pertama + spasi + kata kedua (seperti sheet “Sheet2”). Data tidak disimpan di server.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/combine.js') }}"></script>{% endblock %}

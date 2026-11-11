@@ -1,0 +1,974 @@
+[
+ {
+  "remove": "arround",
+  "replace": "keliling"
+ },
+ {
+  "remove": "assembly",
+  "replace": "hapok"
+ },
+ {
+  "remove": "attach",
+  "replace": "Pasang"
+ },
+ {
+  "remove": "back",
+  "replace": "belakang"
+ },
+ {
+  "remove": "bartack",
+  "replace": "bartek"
+ },
+ {
+  "remove": "basic",
+  "replace": "dasar"
+ },
+ {
+  "remove": "body",
+  "replace": "badan"
+ },
+ {
+  "remove": "bottom",
+  "replace": "bawah"
+ },
+ {
+  "remove": "button hole",
+  "replace": "lubangi"
+ },
+ {
+  "remove": "center",
+  "replace": "tengah"
+ },
+ {
+  "remove": "close",
+  "replace": "tutup"
+ },
+ {
+  "remove": "collar",
+  "replace": "kerah"
+ },
+ {
+  "remove": "cord end",
+  "replace": "ikat"
+ },
+ {
+  "remove": "cuff",
+  "replace": "manset"
+ },
+ {
+  "remove": "cuffs",
+  "replace": "manset"
+ },
+ {
+  "remove": "cut",
+  "replace": "potong"
+ },
+ {
+  "remove": "dart",
+  "replace": "kupnat"
+ },
+ {
+  "remove": "elastic",
+  "replace": "elastik"
+ },
+ {
+  "remove": "facing",
+  "replace": "lapis"
+ },
+ {
+  "remove": "fold",
+  "replace": "lipat"
+ },
+ {
+  "remove": "from",
+  "replace": "dari"
+ },
+ {
+  "remove": "front",
+  "replace": "depan"
+ },
+ {
+  "remove": "hem",
+  "replace": "bottom"
+ },
+ {
+  "remove": "hood",
+  "replace": "topi"
+ },
+ {
+  "remove": "insert",
+  "replace": "masukkan"
+ },
+ {
+  "remove": "inside",
+  "replace": "dalam"
+ },
+ {
+  "remove": "left",
+  "replace": "kiri"
+ },
+ {
+  "remove": "make",
+  "replace": "buat"
+ },
+ {
+  "remove": "marking",
+  "replace": "Gambar"
+ },
+ {
+  "remove": "neck",
+  "replace": "leher"
+ },
+ {
+  "remove": "neckline",
+  "replace": "leher"
+ },
+ {
+  "remove": "nudge",
+  "replace": "coak"
+ },
+ {
+  "remove": "opening",
+  "replace": "bobok"
+ },
+ {
+  "remove": "outside",
+  "replace": "luar"
+ },
+ {
+  "remove": "overlock",
+  "replace": "obras"
+ },
+ {
+  "remove": "pleat",
+  "replace": "kupnat"
+ },
+ {
+  "remove": "punch hole",
+  "replace": "lubangi"
+ },
+ {
+  "remove": "right",
+  "replace": "kanan"
+ },
+ {
+  "remove": "sewside",
+  "replace": "sambung"
+ },
+ {
+  "remove": "shoulder",
+  "replace": "pundak"
+ },
+ {
+  "remove": "sideseam",
+  "replace": "samping"
+ },
+ {
+  "remove": "sleeve",
+  "replace": "tangan"
+ },
+ {
+  "remove": "stitch",
+  "replace": "stik"
+ },
+ {
+  "remove": "end",
+  "replace": "mati"
+ },
+ {
+  "remove": "string",
+  "replace": "tali"
+ },
+ {
+  "remove": "tabs",
+  "replace": "bijo"
+ },
+ {
+  "remove": "topstitch",
+  "replace": "topstik"
+ },
+ {
+  "remove": "tunnel",
+  "replace": "tunel"
+ },
+ {
+  "remove": "turn",
+  "replace": "balik"
+ },
+ {
+  "remove": "under",
+  "replace": "bawah"
+ },
+ {
+  "remove": "upper",
+  "replace": "atas"
+ },
+ {
+  "remove": "variation",
+  "replace": "variasi"
+ },
+ {
+  "remove": "on edge",
+  "replace": "di ujung"
+ },
+ {
+  "remove": "Arround",
+  "replace": "keliling"
+ },
+ {
+  "remove": "Assembly",
+  "replace": "Hapok"
+ },
+ {
+  "remove": "Attach",
+  "replace": "Pasang"
+ },
+ {
+  "remove": "Back",
+  "replace": "belakang"
+ },
+ {
+  "remove": "Bartack",
+  "replace": "Bartek"
+ },
+ {
+  "remove": "Basic",
+  "replace": "Dasar"
+ },
+ {
+  "remove": "Body",
+  "replace": "Badan"
+ },
+ {
+  "remove": "Bottom",
+  "replace": "Bawah"
+ },
+ {
+  "remove": "Button Hole",
+  "replace": "Lubangi"
+ },
+ {
+  "remove": "Center",
+  "replace": "tengah"
+ },
+ {
+  "remove": "Close",
+  "replace": "tutup"
+ },
+ {
+  "remove": "Collar",
+  "replace": "kerah"
+ },
+ {
+  "remove": "Cord End",
+  "replace": "ikat"
+ },
+ {
+  "remove": "Cuff",
+  "replace": "manset"
+ },
+ {
+  "remove": "Cuffs",
+  "replace": "manset"
+ },
+ {
+  "remove": "Cut",
+  "replace": "Potong"
+ },
+ {
+  "remove": "Dart",
+  "replace": "kupnat"
+ },
+ {
+  "remove": "Elastic",
+  "replace": "elastik"
+ },
+ {
+  "remove": "Facing",
+  "replace": "lapis"
+ },
+ {
+  "remove": "Fold",
+  "replace": "lipat"
+ },
+ {
+  "remove": "From",
+  "replace": "dari"
+ },
+ {
+  "remove": "Front",
+  "replace": "depan"
+ },
+ {
+  "remove": "Hem",
+  "replace": "bottom"
+ },
+ {
+  "remove": "Hood",
+  "replace": "Topi"
+ },
+ {
+  "remove": "Insert",
+  "replace": "Masukkan"
+ },
+ {
+  "remove": "Inside",
+  "replace": "dalam"
+ },
+ {
+  "remove": "Left",
+  "replace": "Kiri"
+ },
+ {
+  "remove": "Make",
+  "replace": "Buat"
+ },
+ {
+  "remove": "Marking",
+  "replace": "Gambar"
+ },
+ {
+  "remove": "Neck",
+  "replace": "leher"
+ },
+ {
+  "remove": "Neckline",
+  "replace": "leher"
+ },
+ {
+  "remove": "Nudge",
+  "replace": "coak"
+ },
+ {
+  "remove": "Opening",
+  "replace": "bobok"
+ },
+ {
+  "remove": "Outside",
+  "replace": "luar"
+ },
+ {
+  "remove": "Overlock",
+  "replace": "Obras"
+ },
+ {
+  "remove": "Pleat",
+  "replace": "kupnat"
+ },
+ {
+  "remove": "Punch hole",
+  "replace": "Lubangi"
+ },
+ {
+  "remove": "Right",
+  "replace": "kanan"
+ },
+ {
+  "remove": "Sewside",
+  "replace": "Sambung"
+ },
+ {
+  "remove": "Shoulder",
+  "replace": "Pundak"
+ },
+ {
+  "remove": "outer",
+  "replace": "luar"
+ },
+ {
+  "remove": "Sideseam",
+  "replace": "Samping"
+ },
+ {
+  "remove": "Sleeve",
+  "replace": "tangan"
+ },
+ {
+  "remove": "Stitch",
+  "replace": "Stik"
+ },
+ {
+  "remove": "End",
+  "replace": "mati"
+ },
+ {
+  "remove": "String",
+  "replace": "Tali"
+ },
+ {
+  "remove": "Tabs",
+  "replace": "bijo"
+ },
+ {
+  "remove": "Topstitch",
+  "replace": "Topstik"
+ },
+ {
+  "remove": "Tunnel",
+  "replace": "tunel"
+ },
+ {
+  "remove": "Turn",
+  "replace": "Balik"
+ },
+ {
+  "remove": "Under",
+  "replace": "Bawah"
+ },
+ {
+  "remove": "Upper",
+  "replace": "Atas"
+ },
+ {
+  "remove": "Variation",
+  "replace": "Variasi"
+ },
+ {
+  "remove": "On",
+  "replace": "di"
+ },
+ {
+  "remove": "Edge",
+  "replace": "ujung"
+ },
+ {
+  "remove": "edge",
+  "replace": "ujung"
+ },
+ {
+  "remove": "side",
+  "replace": "samping"
+ },
+ {
+  "remove": "Side",
+  "replace": "samping"
+ },
+ {
+  "remove": "for",
+  "replace": "untuk"
+ },
+ {
+  "remove": "For",
+  "replace": "Untuk"
+ },
+ {
+  "remove": "Stik mati",
+  "replace": "Matikan"
+ },
+ {
+  "remove": "stik mati",
+  "replace": "matikan"
+ },
+ {
+  "remove": "to",
+  "replace": "ke"
+ },
+ {
+  "remove": "To",
+  "replace": "ke"
+ },
+ {
+  "remove": "Botkem",
+  "replace": "bottom"
+ },
+ {
+  "remove": "botkem",
+  "replace": "bottom"
+ },
+ {
+  "remove": "kepstik",
+  "replace": "Topstik"
+ },
+ {
+  "remove": "on",
+  "replace": "di"
+ },
+ {
+  "remove": "pokeng",
+  "replace": "potong"
+ },
+ {
+  "remove": "Pokeng",
+  "replace": "Potong"
+ },
+ {
+  "remove": "kep",
+  "replace": "atas"
+ },
+ {
+  "remove": "Kep",
+  "replace": "atas"
+ },
+ {
+  "remove": "lips",
+  "replace": "bibir"
+ },
+ {
+  "remove": "mansets",
+  "replace": "manset"
+ },
+ {
+  "remove": "Belakangtack",
+  "replace": "Backtack"
+ },
+ {
+  "remove": "belakangtack",
+  "replace": "Backtack"
+ },
+ {
+  "remove": "instructidi",
+  "replace": "instruksi"
+ },
+ {
+  "remove": "lower",
+  "replace": "bawah"
+ },
+ {
+  "remove": "atasi",
+  "replace": "Topi"
+ },
+ {
+  "remove": "satasper",
+  "replace": "stopper"
+ },
+ {
+  "remove": "bdiing",
+  "replace": "boning"
+ },
+ {
+  "remove": "extention",
+  "replace": "extensi"
+ },
+ {
+  "remove": "beuntuke",
+  "replace": "sebelum"
+ },
+ {
+  "remove": "bdided",
+  "replace": "bonded"
+ },
+ {
+  "remove": "ldig",
+  "replace": "panjang"
+ },
+ {
+  "remove": "big fur",
+  "replace": "fur besar"
+ },
+ {
+  "remove": "small fur",
+  "replace": "fur kecil"
+ },
+ {
+  "remove": "shape",
+  "replace": "bentuk"
+ },
+ {
+  "remove": "belakangle",
+  "replace": "backle"
+ },
+ {
+  "remove": "leherline",
+  "replace": "leher"
+ },
+ {
+  "remove": "short",
+  "replace": "pendek"
+ },
+ {
+  "remove": "potong bobok",
+  "replace": "bobok"
+ },
+ {
+  "remove": "after",
+  "replace": "setelah"
+ },
+ {
+  "remove": "garage",
+  "replace": "garasi"
+ },
+ {
+  "remove": "Cord mati",
+  "replace": "ikat"
+ },
+ {
+  "remove": "Bdided",
+  "replace": "bonded"
+ },
+ {
+  "remove": "hole",
+  "replace": "lubang"
+ },
+ {
+  "remove": "frame big",
+  "replace": "frame besar"
+ },
+ {
+  "remove": "frame small",
+  "replace": "frame kecil"
+ },
+ {
+  "remove": "allowance thread",
+  "replace": "sisa benang"
+ },
+ {
+  "remove": "Allowance thread",
+  "replace": "Sisa benang"
+ },
+ {
+  "remove": "outseam",
+  "replace": "samping"
+ },
+ {
+  "remove": "Outseam",
+  "replace": "Samping"
+ },
+ {
+  "remove": "hidden",
+  "replace": "sembunyi"
+ },
+ {
+  "remove": "Hidden",
+  "replace": "Sembunyi"
+ },
+ {
+  "remove": "Butken lubang",
+  "replace": "Lubangi"
+ },
+ {
+  "remove": "armlubang",
+  "replace": "armhole"
+ },
+ {
+  "remove": "Armlubang",
+  "replace": "Armhole"
+ },
+ {
+  "remove": "samping seam",
+  "replace": "samping"
+ },
+ {
+  "remove": "Samping seam",
+  "replace": "Samping"
+ },
+ {
+  "remove": "cuffs inner",
+  "replace": "manset dalam"
+ },
+ {
+  "remove": "Cuffs inner",
+  "replace": "Manset dalam"
+ },
+ {
+  "remove": "until",
+  "replace": "sampai"
+ },
+ {
+  "remove": "silicdie",
+  "replace": "silikon"
+ },
+ {
+  "remove": "small",
+  "replace": "kecil"
+ },
+ {
+  "remove": "stik mati",
+  "replace": "matikan"
+ },
+ {
+  "remove": "topi kerah",
+  "replace": "kerah topi"
+ },
+ {
+  "remove": "before",
+  "replace": "sebelum"
+ },
+ {
+  "remove": "kick patch",
+  "replace": "patch bawah"
+ },
+ {
+  "remove": "gaiker",
+  "replace": "gaitor"
+ },
+ {
+  "remove": "butken",
+  "replace": "kancing"
+ },
+ {
+  "remove": "Butken",
+  "replace": "Kancing"
+ },
+ {
+  "remove": "fcg",
+  "replace": "facing"
+ },
+ {
+  "remove": "interlock",
+  "replace": "obras"
+ },
+ {
+  "remove": "Interlock",
+  "replace": "Obras"
+ },
+ {
+  "remove": "waist masukkan",
+  "replace": "waist kecil"
+ },
+ {
+  "remove": "Att",
+  "replace": "Pasang"
+ },
+ {
+  "remove": "extentidi",
+  "replace": "extention"
+ },
+ {
+  "remove": "lable",
+  "replace": "label"
+ },
+ {
+  "remove": "After",
+  "replace": "Setelah"
+ },
+ {
+  "remove": "Lipat over",
+  "replace": "Lipat"
+ },
+ {
+  "remove": "lipat over",
+  "replace": "lipat"
+ },
+ {
+  "remove": "pant",
+  "replace": "celana"
+ },
+ {
+  "remove": "Put",
+  "replace": "Masukkan"
+ },
+ {
+  "remove": "bawahwear",
+  "replace": "underwear"
+ },
+ {
+  "remove": "thread",
+  "replace": "benang"
+ },
+ {
+  "remove": "stow",
+  "replace": "stow"
+ },
+ {
+  "remove": "pocket",
+  "replace": "pocket"
+ },
+ {
+  "remove": "Belt",
+  "replace": "sabuk"
+ },
+ {
+  "remove": "belt",
+  "replace": "sabuk"
+ },
+ {
+  "remove": "Punchhole",
+  "replace": "lubangi"
+ },
+ {
+  "remove": "Punchole",
+  "replace": "lubangi"
+ },
+ {
+  "remove": "loop",
+  "replace": "loop"
+ },
+ {
+  "remove": "iron",
+  "replace": "gosok"
+ },
+ {
+  "remove": "Allowance Fabric",
+  "replace": "sisa bahan"
+ },
+ {
+  "remove": "Lips",
+  "replace": "bibir"
+ },
+ {
+  "remove": "long",
+  "replace": "panjang"
+ },
+ {
+  "remove": "Long",
+  "replace": "panjang"
+ },
+ {
+  "remove": "Garage",
+  "replace": "garasi"
+ },
+ {
+  "remove": "Shape",
+  "replace": "bentuk"
+ },
+ {
+  "remove": "fly guard",
+  "replace": "golbi"
+ },
+ {
+  "remove": "Fly guard",
+  "replace": "golbi"
+ },
+ {
+  "remove": "Punch Hole",
+  "replace": "lubangi"
+ },
+ {
+  "remove": "Lower",
+  "replace": "bawah"
+ },
+ {
+  "remove": "Allowance Thread",
+  "replace": "sisa benang"
+ },
+ {
+  "remove": "Topsttich",
+  "replace": "topstik"
+ },
+ {
+  "remove": "top stich",
+  "replace": "topstik"
+ },
+ {
+  "remove": "inner",
+  "replace": "dalam"
+ },
+ {
+  "remove": "draf flap",
+  "replace": "plaket"
+ },
+ {
+  "remove": "Draf flap",
+  "replace": "plaket"
+ },
+ {
+  "remove": "Draf Flap",
+  "replace": "plaket"
+ },
+ {
+  "remove": "Centre",
+  "replace": "tengah"
+ },
+ {
+  "remove": "centre",
+  "replace": "tengah"
+ },
+ {
+  "remove": "button",
+  "replace": "button"
+ },
+ {
+  "remove": "Button",
+  "replace": "button"
+ },
+ {
+  "remove": "Topsitch",
+  "replace": "topstik"
+ },
+ {
+  "remove": "topsitch",
+  "replace": "topstik"
+ },
+ {
+  "remove": "big",
+  "replace": "besar"
+ },
+ {
+  "remove": "Spread",
+  "replace": "Pukul"
+ },
+ {
+  "remove": "spread",
+  "replace": "pukul"
+ },
+ {
+  "remove": "suspender",
+  "replace": "suspender"
+ },
+ {
+  "remove": "Suspender",
+  "replace": "suspender"
+ },
+ {
+  "remove": "fishbone",
+  "replace": "fishbone"
+ },
+ {
+  "remove": "Fishbone",
+  "replace": "fishbone"
+ },
+ {
+  "remove": "ventilation",
+  "replace": "ventilasi"
+ },
+ {
+  "remove": "Ventilation",
+  "replace": "ventilasi"
+ },
+ {
+  "remove": "Until",
+  "replace": "sampai"
+ },
+ {
+  "remove": "UNTIL",
+  "replace": "sampai"
+ },
+ {
+  "remove": "Back tack",
+  "replace": "backtack"
+ },
+ {
+  "remove": "Backtack",
+  "replace": "backtack"
+ },
+ {
+  "remove": "back tack",
+  "replace": "backtack"
+ },
+ {
+  "remove": "backtack",
+  "replace": "backtack"
+ },
+ {
+  "remove": "allawonce thread ",
+  "replace": "sisa benang"
+ },
+ {
+  "remove": "ventilation",
+  "replace": "ventilasi"
+ },
+ {
+  "remove": "inssert",
+  "replace": "dalam"
+ },
+ {
+  "remove": "pants",
+  "replace": "celana"
+ },
+ {
+  "remove": "Pants",
+  "replace": "celana"
+ },
+ {
+  "remove": "allowance fabric",
+  "replace": "sisa bahan"
+ },
+ {
+  "remove": "Irdi",
+  "replace": "Gosok"
+ },
+ {
+  "remove": "potong coak",
+  "replace": "coak"
+ }
+]

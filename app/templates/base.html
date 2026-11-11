@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="{{ session.csrf }}">
+  <title>{% block title %}Translate Form{% endblock %} · Translate Form</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body data-page="{{ page|default('') }}">
+  {% if g.user %}
+  <header class="topbar">
+    <a class="brand" href="{{ url_for('views.translate') }}">Translate Form</a>
+    <nav>
+      <a href="{{ url_for('views.translate') }}" class="{{ 'on' if page=='translate' }}">Terjemah</a>
+      <a href="{{ url_for('views.dictionary') }}" class="{{ 'on' if page=='dictionary' }}">Kamus</a>
+      <a href="{{ url_for('views.combine') }}" class="{{ 'on' if page=='combine' }}">Gabung Kata</a>
+      <a href="{{ url_for('views.history') }}" class="{{ 'on' if page=='history' }}">Riwayat</a>
+      {% if g.user.role == 'admin' %}<a href="{{ url_for('views.users') }}" class="{{ 'on' if page=='users' }}">Pengguna</a>{% endif %}
+    </nav>
+    <div class="who">
+      <a href="{{ url_for('views.account') }}" class="{{ 'on' if page=='account' }}">{{ g.user.full_name }}</a>
+      <form method="post" action="{{ url_for('auth.logout') }}">
+        <input type="hidden" name="csrf_token" value="{{ session.csrf }}">
+        <button class="link" type="submit">Keluar</button>
+      </form>
+    </div>
+  </header>
+  {% endif %}
+  <main>{% block content %}{% endblock %}</main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

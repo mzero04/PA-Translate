@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Pengguna{% endblock %}
+{% block content %}
+<div class="toolbar"><h2>Pengguna</h2><span class="spacer"></span><button id="btn-new" class="primary">+ Pengguna baru</button></div>
+<table class="grid">
+  <thead><tr><th>Username</th><th>Nama</th><th>Role</th><th>Status</th><th>Login terakhir</th><th class="act"></th></tr></thead>
+  <tbody id="urows"></tbody>
+</table>
+<dialog id="dlg">
+  <form method="dialog" id="uform">
+    <h3 id="dlg-title">Pengguna</h3>
+    <label>Username <input name="username" pattern="[A-Za-z0-9_.\-]{3,32}" required></label>
+    <label>Nama lengkap <input name="full_name" maxlength="80"></label>
+    <label>Role
+      <select name="role"><option value="user">user</option><option value="admin">admin</option></select>
+    </label>
+    <label class="check"><input type="checkbox" name="is_active" checked> Aktif</label>
+    <label>Password <span class="muted" id="pw-note"></span>
+      <input name="password" type="password" minlength="8" autocomplete="new-password">
+    </label>
+    <div class="dlg-actions">
+      <button type="button" id="dlg-cancel">Batal</button>
+      <button type="submit" class="primary">Simpan</button>
+    </div>
+  </form>
+</dialog>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/users.js') }}"></script>{% endblock %}
